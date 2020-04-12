@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>FewWords | Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="UCS">
+    <meta name="description" content="A temporary place for storing textual Info">
+    <meta name="keywords" content="Text,store,information,FewWords">
+    <link rel="stylesheet" type="text/css" href="files/logdiv.css">
+    <link rel="stylesheet" type="text/css" href="files/logtypebox.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Annie Use Your Telescope">
+</head>
+<body>
+ <script src="files/log.js"></script>
+ <h1 class="glow">FewWords</h1>
+ <div class="loginbox">
+    <form action="home.html">
+      <input
+         title="Enter your username or E-mail"
+         id="userlog"
+         type="text"
+         name="user" placeholder="Enter Username" required>
+      <input
+         title="Type the respective password"
+         id="passlog"
+         type="password"
+         name="psw1" placeholder="Enter Password" required><br>
+      <input type="submit" name="login" value="Login"><br>
+
+      <a href="#" title="Just in case, You forgot your password">Need Help with password?</a><br>
+    </form>
+  </div>
+
+  <div class="signbox">
+    <h2>Create an account</h2><br>
+    <button id="sign2" onclick="document.getElementById('pop').style.display='block'">Sign Up</button>
+  </div>
+
+   <div id="pop" class="modal">
+    <span onclick="document.getElementById('pop').style.display='none'" class="close" title="Close the Signup Form">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+     <div class="container">
+      <h3>Sign Up</h3>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="user"><b>Username</b></label>
+      <input title="Type the name you want for your account"
+             class="signpass" type="text" placeholder="Enter your Username" name="user" required>
+       <br>
+      <label for="email"><b>Email</b></label>
+      <input title="Type your Email"
+             class="signpass" type="text" placeholder="Enter Email" name="email" required>
+       <br>
+      <label for="psw2"><b>Password</b></label>
+      <input title="Type the password"
+             class="signpass" type="password" placeholder="Enter Password" name="psw2" required>
+       <br>
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input title="Repeat the password as you typed above"
+             class="signpass" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+       <br>
+      <p>By creating an account you agree to our <a href="#" title="Click to read in a overlay" style="color:dodgerblue" onclick="openTerms()">Privacy Policy</a>.</p>
+
+      <div id="myNav" class="overlay">
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <div class="overlay-content">
+        <iframe src="privacy.html"></iframe>
+       </div>
+      </div>
+
+       <div class="clearfix">
+        <button class="signupbtn" type="submit">Sign Up</button>
+        <button class="cancelbtn" type="button" onclick="document.getElementById('pop').style.display='none'">Cancel</button><br>
+       </div>
+     </div>
+    </form>
+   </div>
+
+</body>
+</html>

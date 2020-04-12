@@ -1,0 +1,183 @@
+.loginbox input{
+    margin-bottom: 20px;
+}
+
+#userlog, #passlog
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    padding: 12px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    padding: 16px 70px;
+    margin: 10px 10px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 100%;
+    border-radius: 24px;
+    transition-duration: 0.3s;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    transform: scale(1.1);
+}
+
+.loginbox a{
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+    transition-duration: 0.4s;
+}
+
+.loginbox a:hover
+{
+    color: #e6ac00;
+}
+
+
+/*POPUP*/
+
+
+#sign2{
+    width:65%;
+    border-radius: 24px;
+    align: center;
+    background-color: LightSeaGreen;
+    color: white;
+    padding: 18px 42px;
+    margin: 43px 10px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#sign2:hover{
+     background-color: #ffc107;
+     transform: scale(1.1);
+}
+
+
+/* Full-width input fields */
+.signpass {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  /*margin: 5px 0 1px 0;*/
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+.signpass:hover{
+  background: lightgray;
+}
+
+.container input{
+  margin-bottom: 8px;
+}
+
+/* Set a style for all buttons */
+.cancelbtn, .signupbtn {
+  background-color: rgb(53, 156, 58);
+  color: white;
+  padding: 15px 30px;
+  margin: 10px 30px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+.signupbtn:hover {
+  background-color: green;
+  transition-duration: 0.4s;
+}
+
+/*styles for the cancel button */
+.cancelbtn {
+  padding: 10px 15px;
+  width: 60%;
+  background-color: crimson;
+}
+.cancelbtn:hover{
+  background-color: Tomato;
+  transition-duration: 0.4s;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 2px solid #bd3b3b;
+  border-style: solid;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transform: scale(1.5);
+}
+
+/*OVERLAY*/
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 2%;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.overlay-content iframe{
+  height:600px;
+  width:900px;
+  border: none;
+}
+
+.overlay a {
+  padding: 6px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #818181;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+  transform: scale(1.3);
+}
