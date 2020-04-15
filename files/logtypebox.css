@@ -59,6 +59,7 @@
     padding: 18px 42px;
     margin: 43px 10px;
     border: none;
+    outline: none;
     cursor: pointer;
     transition-duration: 0.4s;
 }

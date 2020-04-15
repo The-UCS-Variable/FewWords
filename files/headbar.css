@@ -10,7 +10,6 @@ body, html {
   margin: 10px;
   color: Cornsilk;
   font-family: 'Annie Use Your Telescope';
-  /* font-family: "Comic Sans MS", cursive, sans-serif; */
   text-shadow: 0 0 10px #fff, 0 0 15px #dc143c, 0 0 25px #ee4466, 0 0 35px #f48aa0, 0 0 50px crimson;
 }
 .toptext{
@@ -24,6 +23,7 @@ body, html {
 .headfimage {
   background-image: url("paper2.jpg");
   height: 60%;
+  border: 20px solid crimson;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,6 +43,10 @@ body, html {
   z-index: 10;
   background-color: rgba(0,0,0, 0.5);
   box-shadow: 3px 2px 5px grey;
+  max-width: 287.264px;
+  max-height: 180.402px;
+  min-width: 287.260px;
+  min-height: 180.395px;
 }
 
 .headftext button {
@@ -187,4 +191,88 @@ body, html {
     width: 100%;
     text-align: left;
   }
+}
+
+
+
+/* Footer */
+.footer-row {
+  padding: 10px;
+  background: #ddd;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  overflow: hidden;
+  margin-top: 200px;
+}
+
+/* Clear floats after the columns */
+.footer-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-column{
+  float: left;
+  width: 48%;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer-column {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
+
+.foot-left{
+  font-size: 16px;
+  padding: 20px;
+}
+.foot-left a{
+  text-decoration: none;
+  color: darkslategrey;
+  text-align: left;
+}
+.foot-left a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+
+.foot-right{
+  border-left: 1px solid black;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.foot-right p{
+  font-size: 80%;
+}
+
+.foot-right img{
+  width: 45%;
+  min-width: 85px;
+  padding: 0;
+}
+
+.foot-right img:hover {
+  animation: shake 0.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-0.5deg); }
+  20% { transform: translate(-3px, 0px) rotate(0.5deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(0.5deg); }
+  50% { transform: translate(-1px, 2px) rotate(-0.5deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-0.5deg); }
+  80% { transform: translate(-1px, -1px) rotate(0.5deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-0.5deg); }
 }

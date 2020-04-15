@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Home | FewWords</title>
+  <link rel="icon" href="files/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FewWords | Home</title>
-  <link rel="icon" href="http://example.com/favicon.png">
   <link rel="stylesheet" type="text/css" href="files/headbar.css">
   <link rel="stylesheet" type="text/css" href="files/home.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,21 +14,19 @@
 </head>
 <body>
 
-<div class="headfimage">
+ <div class="headfimage">
   <div class="headftext">
     <h1 class="fewords">FewWords</h1>
     <hr>
     <p class="toptext">A temporary place for storing textual Info</p>
     <button onclick="document.location = 'home.html#editor'">Start</button>
   </div>
-</div>
-
+ </div>
 
  <script src="files/headbar0.js"></script>
  <div class="topnav" id="myTopnav">
   <a class="active" href="home.html"><i class="fa fa-home"></i></a>
   <a href="news.html">News</a>
-  <a href="#about">About</a>
 
   <div class="dropdown">
     <button class="dropbtn" onclick="dropdowning()">Profile</button>
@@ -40,10 +38,40 @@
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="mobilebar()">&#9776;</a>
  </div>
 
-  <script src="files/hom.js"></script>
+
+ <div class="justcolor">
+  <img id="svg-right" src="files/notas.svg">
+  <img id="svg-left" src="files/notes.svg">
+  <img id="svg-center" src="files/ornamental_border.svg">
+ </div>
+ <script src="files/hom.js"></script>
  <div class="editor-wrapper">
   <div id="editor" class="editor"></div>
  </div>
+
+
+
+
+ <div class="footer-row">
+   <div class="footer-column">
+     <div class="foot-left">
+       <ul>
+        <li><a href="home.html#editor">Start Writing</a></li>
+        <li><a href="versionlog.html#log">VersionLog</a></li>
+        <li><a href="index.html">Log Out</a></li>
+       </ul>
+     </div>
+   </div>
+   <div class="footer-column">
+    <div class="foot-right">
+     <p>- <i>Powered by</i> -</p>
+     <a href="https://alex-d.github.io/Trumbowyg/" target="_blank">
+      <img src="files/trumbowyg.jpg" alt="Trumbowyg">
+     </a>
+     <p><small>An MIT-licensed open source project.</small></p>
+    </div>
+   </div>
+  </div>
 
 
 
