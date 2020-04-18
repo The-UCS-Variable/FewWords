@@ -5,7 +5,9 @@ body{
      background-repeat: no-repeat;
      opacity: 0.9
 }
-
+.heading-main{
+    margin: 0 auto 80px;
+}
 .heading-main h1{
     text-align: center;
     font-size: 90px;
@@ -17,7 +19,7 @@ body{
 .content-main{
   margin: 50px auto 80px;
   height: 360px;
-  width: 672px;
+  width: 714px;
 }
 
 .content-main-inner{
@@ -26,23 +28,46 @@ body{
 
 
 .loginbox{
-    width: 304px;
-    height: 260px;
     color: #fff;
     text-align: center;
     /*
+    width: 304px;
+    height: 235px;
     top: 50%;
     left: 50%;
   position: absolute;
     transform: translate(0px,-110px);
-    box-sizing: border-box;
+
     */
     padding: 30px 15px;
     border-left: 4px dashed rgb(88, 88, 128);
+    box-sizing: border-box;
 }
 
+.signbox{
+  color: #fff;
+  /*
+  width: 304px;
+  height: 235px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-300px,-110px);
 
-/*POPUP */
+  */
+  padding: 30px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  .content-main-inner {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
 
 h2{
   text-align: center;
@@ -51,21 +76,7 @@ h2{
   color:Tomato;
 }
 
-.signbox{
-
-  width: 304px;
-  height: 260px;
-  color: #fff;
-  /*
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-300px,-110px);
-  box-sizing: border-box;
-  */
-  padding: 30px 15px;
-  text-align: center;
-}
+/*POPUP */
 
 h3{
   text-align: center;
