@@ -8,6 +8,7 @@
     <meta name="keywords" content="Text,store,information,FewWords">
     <link rel="stylesheet" type="text/css" href="files/logdiv.css">
     <link rel="stylesheet" type="text/css" href="files/logtypebox.css">
+    <link rel="stylesheet" media="screen and max-width(800px)" href="files/log800.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Annie Use Your Telescope">
 </head>
 <body>
@@ -15,14 +16,7 @@
  <div class="heading-main">
   <h1>FewWords</h1>
  </div>
-
  <div class="content-main">
-  <div class="content-main-inner">
-   <div class="signbox">
-     <h2>Create an account</h2><br>
-     <button id="sign2" onclick="document.getElementById('pop').style.display='block'">Sign Up</button>
-   </div>
-  </div>
   <div class="content-main-inner">
    <div class="loginbox">
     <form action="home.html">
@@ -30,7 +24,7 @@
          title="Enter your username or E-mail"
          id="userlog"
          type="text"
-         name="user" placeholder="Enter Username" required>
+         name="user" placeholder="Enter Username" required><br>
       <input
          title="Type the respective password"
          id="passlog"
@@ -39,6 +33,12 @@
       <input type="submit" class="loginbtn" name="login" value="Login"><br>
       <a href="#" title="Just in case, You forgot your password">Need Help with password?</a><br>
     </form>
+   </div>
+  </div>
+  <div class="content-main-inner">
+   <div class="signbox">
+     <h2>Create an account</h2><br>
+     <button id="sign2" onclick="document.getElementById('pop').style.display='block'">Sign Up</button>
    </div>
   </div>
  </div>

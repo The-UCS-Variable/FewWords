@@ -18,12 +18,13 @@ body{
 
 .content-main{
   margin: 50px auto 80px;
-  height: 360px;
-  width: 714px;
+  height: 310px;
+  width: 528px;
 }
 
 .content-main-inner{
   float: left;
+  width: 50%
 }
 
 
@@ -37,10 +38,9 @@ body{
     left: 50%;
   position: absolute;
     transform: translate(0px,-110px);
-
     */
     padding: 30px 15px;
-    border-left: 4px dashed rgb(88, 88, 128);
+    border-right: 3px dashed rgb(88, 88, 128);
     box-sizing: border-box;
 }
 
@@ -53,9 +53,8 @@ body{
   left: 50%;
   position: absolute;
   transform: translate(-300px,-110px);
-
   */
-  padding: 30px 15px;
+  padding: 70px 20px 20px;
   text-align: center;
   box-sizing: border-box;
 }
