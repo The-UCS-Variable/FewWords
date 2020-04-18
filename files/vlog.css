@@ -1,6 +1,6 @@
 .versionlog{
-  margin: 40px auto 80px;
-  padding: 160px;
+  margin: 40px 5% 80px;
+  padding: 15%;
 }
 #log{
   text-align: center;
@@ -37,7 +37,8 @@
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0 22px;
+  min-width: 216px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
