@@ -23,7 +23,6 @@ body, html {
 .headfimage {
   background-image: url("paper2.jpg");
   height: 60%;
-  border: 20px solid crimson;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
