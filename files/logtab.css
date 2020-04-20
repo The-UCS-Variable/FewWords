@@ -62,18 +62,15 @@
 
 /* Add padding to container elements */
 .container {
-  margin: 0 50px;
-
+  margin: 0 40px;
+  text-align: center;
 }
 
-.clearfix{
-  margin: auto 10px;
-}
 
 
 /* Full-width input fields */
 .sign-type-box {
-  width: 100%;
+  width: 60%;
   padding: 15px;
   margin-bottom: 15px;
   display: inline-block;
@@ -83,27 +80,32 @@
   background: #f1f1f1;
 }
 
-.sign-type-box:hover{
-  background: lightgray;
+@media screen and (max-width: 800px) {
+  .sign-type-box {
+    width: 100%;
+  }
 }
 
-.container input{
-  margin-bottom: 8px;
+.sign-type-box:hover{
+  background: lightgrey;
 }
+
 
 /* Set a style for all buttons */
 .signupbtn {
+  width: 40%;
+  min-width: 110px;
   background-color: rgb(53, 156, 58);
   color: white;
   padding: 15px 30px;
-  margin: 10px 30px;
+  margin: 8px 30px 10px;
   border: none;
   cursor: pointer;
-  width: 60%;
 }
 .signupbtn:hover {
   background-color: green;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
+  transform: scale(1.07);
 }
 
 
@@ -112,6 +114,7 @@ hr {
   border: 2px solid #bd3b3b;
   border-style: solid;
   margin-bottom: 25px;
+  width: 80%;
 }
 
 

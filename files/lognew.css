@@ -101,6 +101,10 @@ body {
   .tabcontent {
     width: 100%;
     display: block;
+    background-image: url("book-table.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
