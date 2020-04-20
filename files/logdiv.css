@@ -6,7 +6,11 @@ body{
      opacity: 0.9
 }
 .heading-main{
-    margin: 0 auto 80px;
+    margin: 5px auto 80px;
+    padding: 0 20px;
+    width: 40%;
+    min-width: 310px;
+    height: auto;
 }
 .heading-main h1{
     text-align: center;
@@ -85,7 +89,7 @@ h3{
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: absolute; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
@@ -100,8 +104,9 @@ h3{
   margin: 1% auto 10% auto; /* 5% from the top, 10% from the bottom and centered */
   border: 2px solid #888;
   width: 30%; /* Could be more or less, depending on screen size */
-  padding-right: 60px;
-  padding-left: 60px;
+  min-width: 220px;
+  padding-right: 50px;
+  padding-left: 50px;
   text-align: center;
 }
 
