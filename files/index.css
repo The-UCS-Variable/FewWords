@@ -5,14 +5,14 @@ body {
 
 
 .heading-main{
-    margin: 5px auto 80px;
+    margin: 5px auto 60px;
     width: 40%;
     min-width: 310px;
     height: auto;
 }
 .heading-main h1{
     text-align: center;
-    font-size: 90px;
+    font-size: 80px;
     font-family: 'Annie Use Your Telescope';
     color: Cornsilk;
     text-shadow: 0 0 10px #fff, 0 0 15px #dc143c, 0 0 25px #ee4466, 0 0 35px #f48aa0, 0 0 50px crimson;
@@ -42,7 +42,7 @@ body {
     height: 86px;
   }
   .main-content{
-    margin: 0 8px;
+    margin: 0 2px;
   }
 }
 
@@ -59,7 +59,7 @@ body {
   text-align: center;
   cursor: pointer;
   transition-duration: 0.4s;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 800px) {
@@ -78,12 +78,15 @@ body {
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: lightgrey;
-  transform: scale(1.07, 1.1);
+  box-shadow: 0 0 12px crimson;
+  font-weight: bold;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
   background-color: #ccc;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif
 }
 
 /* Style the tab content */
@@ -94,6 +97,21 @@ body {
   width: 77%;
   height: 600px;
   margin-bottom: 100px;
+  background-color: lightgrey;
+}
+
+@media screen and (min-width: 800px) {
+#Login{
+  background-image: url("pencil.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  background-attachment: fixed;
+ }
+}
+
+#signup{
+  background-image: linear-gradient(to bottom left, #d2e0f9, #16449a);
 }
 
 

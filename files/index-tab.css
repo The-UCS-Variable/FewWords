@@ -1,14 +1,34 @@
 
 .loginbox{
-    color: #fff;
     text-align: center;
-    padding: 30px 15px;
+    padding: 15px;
+}
+@media screen and (min-width: 800px) {
+  .loginbox{
+    border: 6px solid black;
+    margin: 135px auto;
+    width: 65%;
+    max-width: 420px;
+    height: 350px;
+    padding-top: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 5px grey;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .loginbox{
+      width: 70%;
+      margin: 110px auto;
+  }
 }
 
 .loginbox input{
     margin-bottom: 22px;
 }
 
+
+/* style for input boxes */
 #userlog, #passlog
 {
     background: transparent;
@@ -83,6 +103,7 @@
 @media screen and (max-width: 800px) {
   .sign-type-box {
     width: 100%;
+    max-width: 500px;
   }
 }
 
@@ -91,7 +112,7 @@
 }
 
 
-/* Set a style for all buttons */
+/*style for signup button */
 .signupbtn {
   width: 40%;
   min-width: 110px;
@@ -118,7 +139,7 @@ hr {
 }
 
 
-/*OVERLAY*/
+/*OVERLAY or The Privacy Policy Drop Down*/
 
 .overlay {
   height: 0;
