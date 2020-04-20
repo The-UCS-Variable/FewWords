@@ -20,6 +20,7 @@ body {
 
 .main-content{
   margin: 0 20px;
+  height: 780px;
 }
 
 /* Style the tab */
@@ -128,3 +129,19 @@ body {
 
 
 /*------------*/
+
+
+.footer{
+  height: 60px;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.footer button{
+  margin: 2px 0 10px;
+}
+
+.footer a{
+  margin-left: 15px;
+}
