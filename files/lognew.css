@@ -89,7 +89,7 @@ body {
 /* Style the tab content */
 .tabcontent {
   float: left;
-  padding: 0px 12px;
+  padding: 0px 10px;
   border: 1px solid #ccc;
   width: 77%;
   height: 600px;
