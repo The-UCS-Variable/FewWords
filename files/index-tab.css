@@ -12,7 +12,8 @@
     height: 350px;
     padding-top: 50px;
     background-color: white;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 10px 10px 8px grey;
+    transform: skewX(3deg);
   }
 }
 
@@ -86,11 +87,15 @@
   text-align: center;
 }
 
+.container label{
+  text-align: left;
+  font-size: 16px;
+}
 
 
 /* Full-width input fields */
 .sign-type-box {
-  width: 60%;
+  width: 50%;
   padding: 15px;
   margin-bottom: 15px;
   display: inline-block;
@@ -135,7 +140,7 @@ hr {
   border: 2px solid #bd3b3b;
   border-style: solid;
   margin-bottom: 25px;
-  width: 80%;
+  width: 70%;
 }
 
 
