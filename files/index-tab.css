@@ -39,6 +39,14 @@
     padding: 12px 14px;
 }
 
+@media screen and (min-width: 800px) {
+  #userlog, #passlog
+  {
+      border: 3px solid black;
+      box-shadow: 5px 5px 5px lightgrey;
+  }
+}
+
 .loginbtn
 {
     border: none;
