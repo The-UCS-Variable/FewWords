@@ -31,3 +31,8 @@ function getotp() {
 document.getElementById("box1-login").style.display="none";
 document.getElementById("box2-otpsend").style.display="block";
 }
+
+function backlogin() {
+  document.getElementById("box2-otpsend").style.display="none";
+  document.getElementById("box1-login").style.display="block";
+}

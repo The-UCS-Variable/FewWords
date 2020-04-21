@@ -104,15 +104,18 @@ body {
 @media screen and (min-width: 800px) {
 #Login{
   background-image: url("pencil.svg");
+  background-image: url("skylog.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 25%;
+  background-size: cover;
   background-attachment: fixed;
  }
 }
 
 #signup{
   background-image: linear-gradient(to bottom left, #d2e0f9, #16449a);
+  background-position: center;
+  background-attachment: fixed;
 }
 
 

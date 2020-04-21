@@ -80,7 +80,11 @@
     color: #e6ac00;
 }
 
-
+#back-btn{
+  float: left;
+  font-size: 20;
+  padding: 5px;
+}
 
 /*----------------------*/
 
