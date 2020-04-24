@@ -195,6 +195,8 @@ body, html {
 
 
 /* Footer */
+
+
 .footer-row {
   padding: 10px;
   background: #ddd;
@@ -229,6 +231,8 @@ body, html {
 .foot-left{
   font-size: 16px;
   padding: 20px;
+  float: left;
+  width: 25%;
 }
 .foot-left a{
   text-decoration: none;
@@ -240,12 +244,27 @@ body, html {
   color: black;
 }
 
+@media screen and (max-width: 1000px) {
+  .foot-left {
+   width: 40s%;
+  }
+}
+
 
 .foot-right{
   border-left: 1px solid black;
   text-align: center;
   margin-left: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+  .foot-right {
+     border-left: none;
+     border-top: 1px solid black;
+     padding-top: 15px;
+  }
+}
+
 
 .foot-right p{
   font-size: 80%;
