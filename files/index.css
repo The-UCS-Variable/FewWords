@@ -103,7 +103,6 @@ body {
 
 @media screen and (min-width: 800px) {
 #Login{
-  background-image: url("pencil.svg");
   background-image: url("skylog.jpg");
   background-repeat: no-repeat;
   background-position: center;
