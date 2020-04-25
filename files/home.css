@@ -1,13 +1,19 @@
 .editor-wrapper {
   width: 60%;
   top: 500px;
-  min-width: 300px;
+  min-width: 500px;
   margin: 50px auto 50px auto;
   box-shadow: 5px 5px 3px #888888;
-  background-color: black;
-  color: white;
+  background-color: lightgreen;
 }
 
+@media screen and (max-width: 600px){
+  .editor-wrapper{
+    width: 95%;
+    min-width: 250px;
+    box-shadow: 3px 3px 2px #888888;
+  }
+}
 
 
 
