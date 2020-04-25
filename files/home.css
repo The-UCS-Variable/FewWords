@@ -1,14 +1,15 @@
 .editor-wrapper {
-  width: 100%;
+  width: 60%;
   top: 500px;
-  max-width: 1000px;
-  margin: -200px auto 50px auto;
+  min-width: 300px;
+  margin: 50px auto 50px auto;
   box-shadow: 5px 5px 3px #888888;
+  background-color: black;
+  color: white;
 }
 
-#editor{
- background-color: lightgreen;
-}
+
+
 
 .justcolor{
   background-image: linear-gradient(to right, #ffb05e , #ff984b);

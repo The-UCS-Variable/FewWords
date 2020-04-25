@@ -2,7 +2,7 @@ $(document).ready(function() {
 $("#editor").trumbowyg({
  semantic: true,
  btns: [
-   ["undo", "redo"], // Only supported in Blink browsers
+   ["viewHTML"],
    ["formatting"],
    ["strong", "em", "del"],
    ["link"],
@@ -15,3 +15,7 @@ $("#editor").trumbowyg({
  ]
 });
 });
+
+
+
+console.log("Text Editor powered by TRUMBOWYG");

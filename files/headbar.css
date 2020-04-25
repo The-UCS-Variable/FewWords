@@ -42,11 +42,13 @@ body, html {
   z-index: 10;
   background-color: rgba(0,0,0, 0.5);
   box-shadow: 3px 2px 5px grey;
-  max-width: 287.264px;
-  max-height: 180.402px;
-  min-width: 287.260px;
-  min-height: 180.395px;
 }
+
+/* @media screen and (max-width: 800px) {
+  .headftext {
+
+  }
+}  */
 
 .headftext button {
   border: none;
