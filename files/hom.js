@@ -19,3 +19,20 @@ $("#editor-trum").trumbowyg({
 
 
 console.log("Text Editor powered by TRUMBOWYG");
+
+
+  document.getElementById("simpleclick").click();
+
+function switchEDIT(evt, tabName) {
+  var i, editors, switcher;
+  editors = document.getElementsByClassName("editors");
+  for (i = 0; i < editors.length; i++) {
+    editors[i].style.display = "none";
+  }
+  switcher = document.getElementsByClassName("switcher");
+  for (i = 0; i < switcher.length; i++) {
+    switcher[i].className = switcher[i].className.replace(" now", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " now";
+}

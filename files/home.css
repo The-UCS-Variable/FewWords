@@ -10,7 +10,10 @@
 }
 
 
-
+#trum-edit{
+  display: none;
+  background-color: lightgreen
+}
 
 
 .editor-area {

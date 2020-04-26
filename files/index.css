@@ -98,7 +98,6 @@ body {
   width: 77%;
   height: 600px;
   margin-bottom: 100px;
-  background-color: lightgrey;
 }
 
 @media screen and (min-width: 800px) {
