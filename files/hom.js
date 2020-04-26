@@ -1,5 +1,5 @@
 $(document).ready(function() {
-$("#editor").trumbowyg({
+$("#editor-trum").trumbowyg({
  semantic: true,
  btns: [
    ["viewHTML"],

@@ -1,22 +1,54 @@
-.editor-wrapper {
-  width: 60%;
-  top: 500px;
+.main-editor-area{
+  margin: 0 3% 100px;
+  background-color: lightgrey;
+}
+
+.editor-switcher{
+   margin: 0 auto;
+   width: 100%;
+   text-align: center;
+}
+
+
+
+
+
+.editor-area {
+  width: 70%;
   min-width: 500px;
   margin: 50px auto 50px auto;
-  box-shadow: 5px 5px 3px #888888;
-  background-color: lightgreen;
 }
 
 @media screen and (max-width: 600px){
-  .editor-wrapper{
+  .editor-area{
     width: 95%;
     min-width: 250px;
-    box-shadow: 3px 3px 2px #888888;
   }
+}
+
+.editor-options{
+    margin: 30px;
+    text-align: center;
 }
 
 
 
+
+#editor-simple{
+  width: 100%;
+  height: 350px;
+  resize: none;
+}
+
+.editor-2{
+  background-color: lightgreen;
+}
+
+
+
+
+
+/*
 .justcolor{
   background-image: linear-gradient(to right, #ffb05e , #ff984b);
   width: 100%;
@@ -42,3 +74,4 @@
   width: 75%;
   filter: blur(1px);
 }
+*/

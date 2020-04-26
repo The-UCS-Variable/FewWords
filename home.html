@@ -46,10 +46,31 @@
   <img id="svg-left" src="files/notes.svg">
   <img id="svg-center" src="files/ornamental_border.svg">
 </div> -->
+
  <script src="files/hom.js"></script>
- <div class="text-editor-area">
-   <div class="editor-wrapper">
-     <div id="editor" class="editor"></div>
+ <div class="main-editor-area">
+   <div class="editor-switcher">
+        <button type="button" class="switcher here" data-config="simple">Simple</button>
+        <button type="button" class="switcher" data-config="trumbowyg">Trumbowyg</button>
+   </div>
+
+   <div class="editor-area">
+     <div class="editor-1" style="display: block;">
+       <textarea id="editor-simple" name="simple-editor-area" placeholder="Start typing here...."></textarea>
+     </div>
+     <div class="editor-2">
+       <div id="editor-trum" class="editor"></div>
+     </div>
+   </div>
+
+   <div class="editor-options">
+      <label for="text-title">Text Name: </label>
+        <input type="text" name="text-title" placeholder="Text Title" required><br><br>
+      <label for="sharing">Sharing Options: </label>
+        <select id="sharing" name="sharing" title="Choose how you want to use your text" required>
+          <option value="share" title="You'll get a link and TextID to share it with others">Share</option>
+          <option value="personal">Personal</option>
+       </select>
    </div>
  </div>
 
