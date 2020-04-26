@@ -21,7 +21,6 @@ $("#editor-trum").trumbowyg({
 console.log("Text Editor powered by TRUMBOWYG");
 
 
-  document.getElementById("simpleclick").click();
 
 function switchEDIT(evt, tabName) {
   var i, editors, switcher;

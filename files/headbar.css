@@ -205,7 +205,6 @@ body, html {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   overflow: hidden;
-  margin-top: 200px;
 }
 
 /* Clear floats after the columns */
@@ -238,7 +237,6 @@ body, html {
 }
 .foot-left a{
   text-decoration: none;
-  color: darkslategrey;
   text-align: left;
 }
 .foot-left a:hover{
