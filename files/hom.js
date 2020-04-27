@@ -1,5 +1,5 @@
 $(document).ready(function() {
-$("#editor-trum").trumbowyg({
+$("#the-trumbowyg").trumbowyg({
  semantic: true,
  btns: [
    ["viewHTML"],
@@ -35,3 +35,5 @@ function switchEDIT(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " now";
 }
+
+document.getElementById("simpleclick") .click();

@@ -48,18 +48,18 @@
 </div> -->
 
  <script src="files/hom.js"></script>
- <div class="main-editor-area">
+ <div class="main-area">
    <div class="editor-switcher">
-        <button type="button" class="switcher" onclick="switchEDIT(event, 'sim-edit')" id="simpleclick" data-config="simple">Simple</button>
-        <button type="button" class="switcher" onclick="switchEDIT(event, 'trum-edit')" data-config="trumbowyg">Trumbowyg</button>
+        <button class="switcher" onclick="switchEDIT(event, 'sim-edit')" id="simpleclick">Simple</button>
+        <button class="switcher" onclick="switchEDIT(event, 'trum-edit')">Trumbowyg</button>
    </div>
 
    <div class="editor-area">
      <div id="sim-edit" class="editors">
-       <textarea id="editor-simple" name="simple-editor-area" placeholder="Start typing here...."></textarea>
+       <textarea id="the-simple" name="simple-editor-area" placeholder="Start typing here...."></textarea>
      </div>
      <div id="trum-edit" class="editors">
-       <div id="editor-trum" class="editor"></div>
+       <div id="the-trumbowyg"></div>
      </div>
    </div>
 
@@ -105,7 +105,6 @@
     </div>
    </div>
   </div>
-
 
 
 </body>
