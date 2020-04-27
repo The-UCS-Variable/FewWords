@@ -35,5 +35,3 @@ function switchEDIT(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " now";
 }
-
-document.getElementById("simpleclick") .click();
