@@ -3,8 +3,7 @@ $("#the-trumbowyg").trumbowyg({
  semantic: true,
  btns: [
    ["viewHTML"],
-   ["formatting"],
-   ["strong", "em", "del"],
+   ["strong", "em"],
    ["link"],
    ["insertImage"],
    ["justifyLeft", "justifyCenter", "justifyRight"],

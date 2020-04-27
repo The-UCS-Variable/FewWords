@@ -105,6 +105,7 @@
    background-color: lightgreen;
 }
 
+
 .editor-options{
      float: left;
      width: 30%;
@@ -119,101 +120,3 @@
     float: none;
   }
 }
-
-
-
-
-
-
-
-/*
-.justcolor{
-  background-image: linear-gradient(to right, #ffb05e , #ff984b);
-  width: 100%;
-  height: 300px;
-  box-shadow: 0 0 10px;
-}
-
-#svg-right{
-  float: right;
-  margin: 60px 10px;
-  opacity: 0.1;
-  filter: blur(1px);
-}
-#svg-left{
-  float: left;
-  margin: 60px 10px;
-  opacity: 0.2;
-  width: 9%;
-}
-#svg-center{
-  opacity: 0.1;
-  margin: 20px;
-  width: 75%;
-  filter: blur(1px);
-}
-
-
-
-
-.main-editor-area{
-  margin: 0 3% 0;
-  background-color: lightgrey;
-  padding: 30px;
-  height: 700px;
-}
-
-.editor-switcher{
-   margin: 0 10px;
-   width: 100%;
-}
-
-.editors{
-  height: 375px;
-}
-
-#trum-edit{
-  display: none;
-  background-color: lightgreen
-}
-
-
-.editor-area {
-  width: 70%;
-  min-width: 500px;
-  float: left;
-  margin-top: 40px;
-}
-
-@media screen and (max-width: 600px){
-  .editor-area{
-    width: 100%;
-    min-width: 250px;
-  }
-}
-
-.editor-options{
-    margin: 40px 0;
-    text-align: center;
-    float: left;
-    width: 28%;
-}
-
-@media screen and (max-width: 700px){
-  .editor-options{
-    width: 100%;
-    float: none;
-    margin-top: 90px;
-  }
-}
-
-
-
-
-#editor-simple{
-  width: 100%;
-  height: 350px;
-  resize: none;
-}
-
-*/
